@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Me</title>
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #d2d7df;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;}
+        
+        form{
+            display: flex; 
+            flex-direction: column;}
+
+        .contact-box{
+            background-color: #fcfcfd;
+            width: 400px;
+            padding: 30px;
+            border-radius: 15px;}
+
+        .contact-box h1{text-align: center;}
+        .contact-box p{text-align: center;}
+
+        label{
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 5px;}
+
+        input, textarea {
+            width: 95%;
+            padding: 8px;
+            box-sizing: border-box;}
+
+        textarea{height: 120px;}
+
+        button{
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            align-self: center;
+            background-color: #0c0c0c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;}
+    </style>
+</head>
+
+<body>
+    <div class="contact-box">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me!</p>
+
+        <form>
+            <label>Name:</label>
+            <input type="text" required>
+
+            <label>Email:</label>
+            <input type="email" required>
+
+            <label>Message:</label>
+            <textarea required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

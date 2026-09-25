@@ -78,3 +78,17 @@ footer{
     background-color: #222;
     color: rgba(255, 255, 255, 0.47);
     padding: 20px;}
+
+@media (max-width: 600px) {
+    .buttons {
+        flex-direction: column;
+        align-items: center;}
+    .skills-grid{grid-template-columns: 1fr;}
+    table {
+        width: 100%;
+        min-width: 0;}
+    th,td {
+        padding: 8px;
+        font-size: 14px;}
+    .top-section{padding: 25px 15px;}
+}

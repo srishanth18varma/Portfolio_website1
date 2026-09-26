@@ -120,4 +120,9 @@ footer{
     th,td {
         padding: 8px;
         font-size: 14px;}
-    .top-section{padding: 25px 15px;}}
+    .top-section{padding: 25px 15px;}
+    .projects-grid {
+    grid-template-columns: 1fr;
+    padding: 0 15px;}
+    .project-card {width: auto;}
+    .project-button {font-size: 20px;}}

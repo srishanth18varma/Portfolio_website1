@@ -14,7 +14,6 @@ body{
     width: 160px;
     height: 160px;
     border-radius: 50%;}
-
 h1{margin: 20px 10px;}
 
 .intro{
@@ -77,8 +76,7 @@ tr:hover{
     display: grid;
     grid-template-columns: repeat(2, 400px);
     justify-content: center;
-    gap: 20px;
-}
+    gap: 20px;}
 
 .project-card {
     background-color: #030303;
@@ -86,8 +84,7 @@ tr:hover{
     padding: 25px;
     border-radius: 8px;
     text-align: center;
-    border: 1px solid #141313;
-}
+    border: 1px solid #141313;}
 
 .project-button {
     display: inline-block;
@@ -97,17 +94,14 @@ tr:hover{
     padding: 10px 25px;
     border-radius: 5px;
     font-size: 24px;
-    font-weight: bold;
-}
+    font-weight: bold;}
 
 .project-button:hover {
-    background-color: #555;
-}
+    background-color: #555;}
 
 .project-card p {
     line-height: 1.6;
-    color: #ddd;
-}
+    color: #ddd;}
 
 footer{
     text-align: center;
@@ -115,7 +109,7 @@ footer{
     color: rgba(255, 255, 255, 0.47);
     padding: 20px;}
 
-/*@media (max-width: 600px) {
+@media (max-width: 600px) {
     .buttons {
         flex-direction: column;
         align-items: center;}
@@ -126,5 +120,4 @@ footer{
     th,td {
         padding: 8px;
         font-size: 14px;}
-    .top-section{padding: 25px 15px;}
-}*/
+    .top-section{padding: 25px 15px;}}

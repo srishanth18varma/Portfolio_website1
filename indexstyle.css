@@ -1,7 +1,7 @@
 body{
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #d2d7df;
+    background-color: #efece6;
     color: #443b3b;}
 
 .top-section{
@@ -66,12 +66,48 @@ tr:hover{
     justify-content: center;
     gap: 20px;}
 .skill-card {
-    background-color: white;
+    background-color: #faf9f6;
     padding: 25px;
     border-radius: 8px;
     border: 1px solid #141313;
     text-align: center;}
 .skill-card h3{margin-top: 0;}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #030303;
+    color: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #141313;
+}
+
+.project-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.project-button:hover {
+    background-color: #555;
+}
+
+.project-card p {
+    line-height: 1.6;
+    color: #ddd;
+}
 
 footer{
     text-align: center;
@@ -79,7 +115,7 @@ footer{
     color: rgba(255, 255, 255, 0.47);
     padding: 20px;}
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
     .buttons {
         flex-direction: column;
         align-items: center;}
@@ -91,4 +127,4 @@ footer{
         padding: 8px;
         font-size: 14px;}
     .top-section{padding: 25px 15px;}
-}
+}*/

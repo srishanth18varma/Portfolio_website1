@@ -1,0 +1,30 @@
+.certificates-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.certificate {
+    background-color: #fcfcfd;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.certificate img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .certificates-container {
+        grid-template-columns: 1fr;
+        padding: 15px;
+        gap: 20px;
+    }
+}

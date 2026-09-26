@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Certificates</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #e7e4dc;
+            color: #443b3b;
+        }
+
+        .top-section {
+            background-color: rgb(249, 246, 246);
+            padding: 40px;
+            text-align: center;
+            border-bottom: 1px solid #ffffff;
+        }
+
+        .top-section h1 {
+            margin: 0;
+        }
+
+        .certificates-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .certificate {
+            background-color: #fcfcfd;
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+        .certificate img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+        }
+
+        @media (max-width: 600px) {
+            .certificates-container {
+                grid-template-columns: 1fr;
+                padding: 15px;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-section">
+        <h1>My Certificates</h1>
+    </div>
+
+    <div class="certificates-container">
+
+        <div class="certificate">
+            <img src="Data Science and AI - IIT Madras.jpeg" alt="Certificate 1">
+        </div>
+
+        <div class="certificate">
+            <img src="Math puzzles - IIT Madras.jpeg" alt="Certificate 2">
+        </div>
+
+        <div class="certificate">
+            <img src="AI with ML 1 - Remarkskill.png" alt="Certificate 3">
+        </div>
+
+        <div class="certificate">
+            <img src="Data Science 1 - EDU Fabrica.jpeg" alt="Certificate 4">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
